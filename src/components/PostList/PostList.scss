@@ -1,0 +1,10 @@
+.container-postList {
+  margin: 0 20%;
+  & > li {
+    text-align: left;
+    font-size: 20px;
+    color: deeppink;
+    padding: 5px;
+    list-style: disc inside;
+  }
+}

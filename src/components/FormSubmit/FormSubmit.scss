@@ -1,0 +1,21 @@
+.container-form {
+  margin: 10px 20%;
+  display: flex;
+  justify-content: space-between;
+  input {
+    width: 80%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px green solid;
+    color: green;
+  }
+  button {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 2px green solid;
+    color: green;
+    cursor: pointer;
+  }
+}

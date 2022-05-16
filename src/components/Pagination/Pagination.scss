@@ -1,0 +1,15 @@
+.container-pagination {
+  button {
+    font-size: 20px;
+    color: deeppink;
+    margin: 5px;
+    padding: 5px;
+    border: 2px deeppink solid;
+    border-radius: 5px;
+    cursor: pointer;
+    &:disabled {
+      background-color: gray;
+      pointer-events: none;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.container-todoList {
+  margin-left: 20%;
+  margin-right: 20%;
+  & > li {
+    color: deeppink;
+    font-size: 20px;
+    text-align: start;
+    list-style-position: inside;
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px auto;
+    border: 1px gray solid;
+    border-radius: 5px;
+  }
+}
